@@ -513,17 +513,22 @@ print("RESULTS! \n")
 print("Economically, you are ",end="")
 
 if (EM >= -12 and EM < -6):
+    E='eli'
     print("an Elitist \n")
 
 elif (EM >= -6 and EM < 0 ):
+    E='cap'
     print("a Capitaist \n")
 
 elif (EM > 0 and EM <= 6):
+    E='ega'
     print("an Egalitarian \n")
 
 elif (EM >6 and EM <= 12):
+    E='soc'
     print("a Socialist\n")
 else:
+    E='cen'
     print("a Centrist \n")
 
 print("\n")
@@ -531,18 +536,23 @@ print("\n")
 print("Diplomatically, you are ",end="")
 
 if (NW >= -12 and NW < -6):
-    print("an Authoritarian \n")
+    D='int'
+    print("an Internationalist \n")
 
 elif (NW >= -6 and NW < 0):
+    D='hum'
     print("a Humanist\n")
 
 elif (NW > 0 and NW <= 6):
+    D='pat'
     print("a Patriot \n")
 
 elif (NW > 6 and NW <= 12):
+    D='nat'
     print("a Nationalist\n")
 
 else:
+    D='cen'
     print("a Centrist \n")
 
 print("\n")
@@ -550,18 +560,23 @@ print("\n")
 print("Civically, you are ", end="")
 
 if (LA >= -12 and LA < -6):
+    C='fas'
     print("a Fascist \n")
 
 elif (LA >= -6 and LA < 0):
+    C='aut'
     print("an Authoritarian \n")
 
 elif (LA > 0 and LA <= 6):
+    C='lib'
     print("a Liberal \n")
 
 elif (LA > 6 and LA <= 12):
+    C='ana'
     print("an Anarchist \n")
 
 else:
+    C='cen'
     print("a Centrist \n")
 
 print("\n")
@@ -569,30 +584,24 @@ print("\n")
 print("Socially, you are ", end="")
 
 if (TP >= -12 and TP < -6):
+    S='mod'
     print("a Modernist \n")
 
 elif (TP >= -6 and TP < 0):
+    S='sec'
     print("a Secularist \n")
 
 elif (TP > 0 and TP <= 6):
+    S='con'
     print("a Conservative")
 
 elif (TP > 6 and TP <= 12):
+    S='tra'
     print("a Traditionalist")
 
 else:
+    S='cen'
     print("a Centrist \n")
-
-
-
-
-
-
-
-
-
-
-
 
 
 
