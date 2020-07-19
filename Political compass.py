@@ -1,7 +1,7 @@
 print("\n\n************Welcome to Political Compass************\n")
 print("Answer the following statements according to the key given below\n")
 print("Key:\n 1- Strongly agree\n 2- Agree\n 3- Neutral/unsure\n 4- Disagree\n 5- Strongly disagree \n")
-print("Your closest poitical ideology will be produced eventually")
+print("Your closest political ideology will be produced eventually")
 print("Answer honestly!","\n")
 
 EM = 0
